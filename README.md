@@ -16,11 +16,11 @@ Github Repo: https://github.com/jpittma1/ENPM661_Project5_RRT.git
 ### There are three Main steps to be executed in this project.
 - Step 1 : Place the Robot in the Environment within Gazebo
 export TURTLEBOT3_MODEL=waffle_pi
-source ~/.bashrc
+
 roslaunch ros_autonomous_slam turtlebot3_world.launch
 
 - Step 2 : Perform Autonomous exploration of the environment and generate the Map
-roslaunch ros_autonomous_slam autonomous_explorer.launch:=RRT
+roslaunch ros_autonomous_slam autonomous_explorer.launch
 
 
 - Step 3 : Perform pathplanning and go to goal in the environment
