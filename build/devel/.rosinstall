@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jerry/catkin_ws/src/ENPM661_Project5_RRT/build/devel/setup.sh

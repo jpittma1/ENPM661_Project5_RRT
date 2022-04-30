@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: ros_autonomous_slam
+Description: Description of ros_autonomous_slam
+Version: 2.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime
