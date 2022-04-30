@@ -31,7 +31,7 @@ roslaunch ros_autonomous_slam turtlebot3_navigation.launch
 Set your environment variable to the model robot to be used.
 ```
 export TURTLEBOT3_MODEL=waffle_pi
-source ~/.bashrc
+
 ```
 Execute the given launch to open Gazebo with the given world file and place the robot Turtlebot3 Waffle pi model in it.
 ```
