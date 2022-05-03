@@ -7,7 +7,9 @@ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 roslaunch ros_autonomous_slam autonomous_explorer.launch
 roslaunch ros_autonomous_slam autonomous_explorer.launch explorer:=RRT
 roslaunch ros_autonomous_slam autonomous_explorer.launch explorer:=BUG_WALLFOLLOW
+
 roslaunch ros_autonomous_slam rrt_simple.launch
+
 rosrun map_server map_saver -f my_map
 
 roslaunch ros_autonomous_slam turtlebot3_navigation.launch

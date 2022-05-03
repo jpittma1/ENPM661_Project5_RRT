@@ -179,6 +179,54 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_autonomous_slam" TYPE FILE FILES "/home/jerry/catkin_ws/src/ENPM661_Project5_RRT/package.xml")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros_autonomous_slam" TYPE PROGRAM FILES "/home/jerry/catkin_ws/src/ENPM661_Project5_RRT/build/catkin_generated/installspace/assigner.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros_autonomous_slam" TYPE PROGRAM FILES "/home/jerry/catkin_ws/src/ENPM661_Project5_RRT/build/catkin_generated/installspace/filter.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros_autonomous_slam" TYPE PROGRAM FILES "/home/jerry/catkin_ws/src/ENPM661_Project5_RRT/build/catkin_generated/installspace/functions.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros_autonomous_slam" TYPE PROGRAM FILES "/home/jerry/catkin_ws/src/ENPM661_Project5_RRT/build/catkin_generated/installspace/getfrontier.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros_autonomous_slam" TYPE PROGRAM FILES "/home/jerry/catkin_ws/src/ENPM661_Project5_RRT/build/catkin_generated/installspace/frontier_opencv_detector.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros_autonomous_slam" TYPE PROGRAM FILES "/home/jerry/catkin_ws/src/ENPM661_Project5_RRT/build/catkin_generated/installspace/a_star_main.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros_autonomous_slam" TYPE PROGRAM FILES "/home/jerry/catkin_ws/src/ENPM661_Project5_RRT/build/catkin_generated/installspace/autonomous_move.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros_autonomous_slam" TYPE PROGRAM FILES "/home/jerry/catkin_ws/src/ENPM661_Project5_RRT/build/catkin_generated/installspace/autonomous_rrt.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros_autonomous_slam" TYPE PROGRAM FILES "/home/jerry/catkin_ws/src/ENPM661_Project5_RRT/build/catkin_generated/installspace/move_base.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros_autonomous_slam" TYPE PROGRAM FILES "/home/jerry/catkin_ws/src/ENPM661_Project5_RRT/build/catkin_generated/installspace/rrt_single.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros_autonomous_slam" TYPE PROGRAM FILES "/home/jerry/catkin_ws/src/ENPM661_Project5_RRT/build/catkin_generated/installspace/rrt.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros_autonomous_slam" TYPE PROGRAM FILES "/home/jerry/catkin_ws/src/ENPM661_Project5_RRT/build/catkin_generated/installspace/wall_follow.py")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/jerry/catkin_ws/src/ENPM661_Project5_RRT/build/gtest/cmake_install.cmake")

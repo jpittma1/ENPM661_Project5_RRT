@@ -34,6 +34,8 @@ Keep this process running always and execute other commands in a different termi
 ## Step 2 : Perform Autonomous exploration of the environment and generate the Map
 ```
 roslaunch ros_autonomous_slam autonomous_explorer.launch
+--OR--
+roslaunch ros_autonomous_slam autonomous_explorer.launch explorer:=RRT
 ```
 
 Run the Autonomous Explorer launch file which executes two tasks for us at the same time:
