@@ -50,9 +50,6 @@ points.points.push_back(p);
 
 }
 
-
-
-
 int main(int argc, char **argv)
 {
 

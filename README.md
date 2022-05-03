@@ -21,7 +21,7 @@ Github Repo: https://github.com/jpittma1/ENPM661_Project5_RRT.git
 - Step 3 : Perform pathplanning and go to goal in the environment
 
 ## Step 1 : Place the Robot in the Environment within Gazebo
-Set your environment variable to the model robot to be used.
+Set your environment variable to the model robot to be used in bashrc file.
 ```
 export TURTLEBOT3_MODEL=waffle_pi
 
