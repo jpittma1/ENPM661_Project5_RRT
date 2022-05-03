@@ -10,7 +10,7 @@ set(ros_autonomous_slam_EXEC_DEPENDS "geometry_msgs" "nav_msgs" "roscpp" "rospy"
 set(ros_autonomous_slam_RUN_DEPENDS "geometry_msgs" "nav_msgs" "roscpp" "rospy" "std_msgs" "tf" "visualization_msgs" "message_runtime")
 set(ros_autonomous_slam_TEST_DEPENDS )
 set(ros_autonomous_slam_DOC_DEPENDS )
-set(ros_autonomous_slam_URL_WEBSITE "")
+set(ros_autonomous_slam_URL_WEBSITE "http://wiki.ros.org/ros_autonomous_slam")
 set(ros_autonomous_slam_URL_BUGTRACKER "")
 set(ros_autonomous_slam_URL_REPOSITORY "")
 set(ros_autonomous_slam_DEPRECATED "")

@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 
 from rrt import find_path_RRT
 import numpy as np
