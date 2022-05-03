@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+
 
 # license removed for brevity
 
