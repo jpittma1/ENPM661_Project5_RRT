@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 '''
 Sourced from
 https://github.com/ArianJM/rapidly-exploring-random-trees
