@@ -62,7 +62,7 @@ def rapidlyExploringRandomTree(img, start, goal, seed=None):
 
     if len(points) >= MIN_NUM_VERT:
       if not phaseTwo:
-        print 'Phase Two'
+        print ('Phase Two')
       phaseTwo = True
 
     if phaseTwo:
@@ -81,9 +81,9 @@ def rapidlyExploringRandomTree(img, start, goal, seed=None):
     # print 'The final path is made from:', len(path),'connected points'
   else:
     path = None
-    print 'Reached maximum number of vertex and goal was not found'
-    print 'Total vertex in graph:', len(points), 'total random points generated:', i
-    print 'Showing resulting map'
+    print ('Reached maximum number of vertex and goal was not found')
+    print ('Total vertex in graph:', len(points), 'total random points generated:', i)
+    print ('Showing resulting map')
 
 
   return path,graph
@@ -171,21 +171,21 @@ def find_path_RRT(start,goal,my_map):
   return path
 
 def main():
-  print 'Loading map... with file \'', MAP_IMG,'\''
+  print ('Loading map... with file \'', MAP_IMG,'\'')
   img = imread(MAP_IMG)
   img = np.array(img)
-  print 'Map is', len(img[0]), 'x', len(img)
+  print ('Map is', len(img[0]), 'x', len(img))
   start, goal = ([65.0, 248.0], [326.0, 279.0])
   print(start,goal)
   path,graph = rapidlyExploringRandomTree(img, start, goal, seed=SEED)
 
 if len(sys.argv) > 2:
-  print 'Only one argument is needed'
+  print ('Only one argument is needed')
 elif len(sys.argv) > 1:
   if os.path.isfile(sys.argv[1]):
     MAP_IMG = sys.argv[1]
   else:
-    print sys.argv[1], 'is not a file'
+    print (sys.argv[1], 'is not a file')
 
 
 # main()
