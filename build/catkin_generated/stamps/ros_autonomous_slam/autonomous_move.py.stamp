@@ -1,4 +1,4 @@
-
+#!/usr/bin/python3
 
 from rrt import find_path_RRT
 import numpy as np
@@ -197,7 +197,7 @@ if __name__ == '__main__':
     # Subscribe to /odom
     sub_odom = rospy.Subscriber('/odom', Odometry, callback_odom) # Receive Odom readings
     sub_map = rospy.Subscriber('/map',OccupancyGrid, callback_map) # Receive Map
-    img = imread('/home/fazildgr8/catkin_ws/src/ros_autonomous_slam/media/my_map.png')
+    img = imread('/home/jerry/catkin_ws/src/ros_autonomous_slam/media/my_map.png')
     
     flag = True
     while not rospy.is_shutdown():
