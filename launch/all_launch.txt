@@ -15,8 +15,6 @@ rosrun map_server map_saver -f my_map
 roslaunch ros_autonomous_slam turtlebot3_navigation.launch
 
 
-
-
 https://emanual.robotis.com/docs/en/platform/turtlebot3/navigation/#tuning-guide
 
 rosrun turtlebot3_example turtlebot3_server
